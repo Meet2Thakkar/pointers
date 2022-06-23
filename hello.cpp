@@ -31,3 +31,20 @@ int main() {
     printf("value at p is %d\n",*p);
     printf("value at p is %d\n",*(p+1));
 }
+
+/*
+-952107552
+10
+-952107552
+a = 10
+a = 12
+address of P is -952107552
+value at p is 12
+address of P is -952107552
+value at p is 20
+-952107552
+size of integer is 4
+-952107548
+value at p is 20
+value at p is 20
+*/
